@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>How to Create Github Page using Git - Hanif Nafiis</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top">Hanif N Personal Page</a>
+                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="https://hanifnaf.github.io/">Home</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="laporan.html">Github Page Steps</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading text-uppercase mb-0">How to Create Github Page Using Git</h1>
+                <br>
+                <!-- Masthead Avatar Image-->
+                <img class="githubio mb-5" src="assets/img/github_io.jpeg" alt="..." />
+                </div>
+        </header>
+          <!-- About Section-->
+          <section class="page-section bg-tertiary text-secondary mb-0" id="about">
+            <div class="container">
+                <!-- About Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- About Section Content-->
+                <p class="ms-just lead">Github is used by many people to host their work. Some people host their projects, some just want to use github to backup their files. But it turns out, Github can be used to do something else. You can use Github to host your own website. It is free and fairly easy. In this article I will show you how to host a Github page using Git.</p>
+                <br>
+                <br>
+                <p class="ms-just page-section-heading text-start lead">1. Create a Github account and create new repository</p>
+                <br>
+                <img class="githubio mb-5" src="assets/img/SS/Screenshot (189).png" alt="..." />
+                <br>
+                <p class="ms-just lead">The first step is to set-up your Github account. This can be done by clicking the sign up button and following the direction it gives. After you successfully create your account, create a repository to set-up your web page.</p>
+                <img class="githubio mb-5" src="assets/img/SS/Screenshot (190).png" alt="..." />
+                <br>
+                <p class="ms-just lead">Name your repository with ['your account name'.github.io] this will ensure that your web is running on the main branch (not a subdirectory).</p>
+                <br>
+                <br>
+
+                <p class="ms-just page-section-heading text-start lead">2. Go to your local folder and initiate git</p>
+                <br>
+                <img class="githubio mb-5" src="assets/img/SS/Screenshot (191).png" alt="..." />
+                <br>
+                <p class="ms-just lead">After the repository is set, go to the folder which contains your file. Right click on it and click the git bash here button. <a href="https://git-scm.com/downloads">(install git here)</a></p>
+                <img class="githubio mb-5" src="assets/img/SS/Screenshot (192).png" alt="..." />
+                <br>
+                <p class="ms-just lead">After the git window showed up, type git init and press enter.</p>
+                <br>
+                <br>
+
+                <p class="ms-just page-section-heading text-start lead">3. Add your files to the staging area</p>
+                <br>
+                <img class="githubio mb-5" src="assets/img/SS/Screenshot (194).png" alt="..." />
+                <br>
+                <p class="ms-just lead">Type git add . then press enter to add your files to the staging area. Dont forget to include the "dot" so that all your files are added.</p>
+                <br>
+                <br>
+
+                <p class="ms-just page-section-heading text-start lead">4. Commit your files</p>
+                <br>
+                <img class="githubio mb-5" src="assets/img/SS/Screenshot (195).png" alt="..." />
+                <br>
+                <p class="ms-just lead">Type git commit -m "first commit" then press enter to commit your files.</p>
+                <br>
+                <br>
+
+                <p class="ms-just page-section-heading text-start lead">5. Add remote origin</p>
+                <br>
+                <img class="githubio mb-5" src="assets/img/SS/Screenshot (196).png" alt="..." />
+                <br>
+                <p class="ms-just lead">Go to your repository and copy its link.</a></p>
+                <img class="githubio mb-5" src="assets/img/SS/Screenshot (199).png" alt="..." />
+                <br>
+                <p class="ms-just lead">Type git add remote origin followed by the link to your repository.</p>
+                <br>
+                <br>
+
+                <p class="ms-just page-section-heading text-start lead">6. Push your files</p>
+                <br><br>
+                <img class="githubio mb-5" src="assets/img/SS/Screenshot (200).png" alt="..." />
+                <br>
+                <p class="ms-just lead">The last step is to push your file to the repository. Type git push origin master and press enter.</a></p>
+                <img class="githubio mb-5" src="assets/img/SS/Screenshot (202).png" alt="..." />
+                <br>
+                <p class="ms-just lead">Congratulations. Now your website is ready and you can always edit it by following the same steps</p>
+                <br>
+                <br></div>
+            </section>
+        <!-- Contact Section-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <!-- Contact Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <center>
+                    <a class="btn btn-outline-dark btn-social mx-1" href="https://www.linkedin.com/in/muhammad-hanif-nafiis-26a8aa1a3/"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-dark btn-social mx-1" href="https://twitter.com/MHanifn02"><i class="fab fa-twitter"></i></a>
+                </center>
+                </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer text-center">
+            <div class="container">
+                    <!-- Footer Location-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Location</h4>
+                        <p class="lead mb-0">
+                            Jl. Jalak Bali VII
+                            <br />
+                            Tangerang Selatan, Banten
+                        </p>
+                    </div>
+            </div>
+        </footer>
+        <!-- Copyright Section-->
+        <div class="copyright py-4 text-center text-white">
+            <div class="container"><small>Copyright &copy; Muhammad Hanif Nafiis 2021</small></div>
+        </div>
+        <!-- Portfolio Modals-->
+        <!-- Portfolio Modal 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Basketball</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="gambar rounded mb-5" src="assets/img/Basketball.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">I started playing basketball in elementary school as an extracurricular program. Over time, I prefer this sport over other type of "ball sport" because of the feeling when I play it. Since the pandemic started, I haven't played as much as i used to.</p>
+                                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 3-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Novel Books</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="gambar rounded mb-5" src="assets/img/novels.jpg" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">I love to read, espescially novel books. I particularly like to read them before bed, as it helps me to sleep. My favourite genre is mystery and fantasy. I particularly like Agatha Christie's Poirot series.</p>
+                                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 4-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Game</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/game.jpg" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">I like to play games since I was a kid. My father used to play RTS games like Warcraft III and Age of Empires II. I think i started to play games because i watched him play those games. Currently, my favorite genre is FPS.</p>
+                                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
